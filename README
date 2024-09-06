@@ -11,7 +11,7 @@ Leverages the Next.js App Router for optimized routing and server-side rendering
 Utilizes useForm for streamlined form management with validation and submission. 
 ### Scoped Styling:  
 Implemented with CSS Modules for clean and maintainable component-specific styles. 
-### Lightweight Database: \ 
+### Lightweight Database:  
 Powered by SQLite for handling user-generated content efficiently. \
 Community-Driven Content: Users can contribute and explore tips, reviews, and recommendations on natural cosmetics. 
 
