@@ -2,7 +2,8 @@
 A Full-Stack Next.js application built for natural cosmetic enthusiasts to discover, \
 share, and exchange knowledge about natural cosmetics. 
 
-https://github.com/user-attachments/assets/ce03e616-4b65-499d-8360-df447dfd6853
+https://github.com/user-attachments/assets/37c176a4-1605-47f6-8cfd-7e144e8b00fe
+
 
 ## ✨ Key Features: 
 ### Dynamic Routing:  
