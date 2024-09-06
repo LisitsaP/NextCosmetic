@@ -1,26 +1,26 @@
 import Link from 'next/link';
 import cls from './page.module.css';
-import MealsGrid from '@/components/meals/meals-grid';
-import { getRecipe } from '@/lib/meals';
+import { getRecipe } from '@/lib/cosmetics';
 import { Suspense } from 'react';
+import CosmeticGrid from '@/components/cosmetics/cosmetic-grid';
 
 async function Recipes(){
-    const meals = await getRecipe();
-    return <MealsGrid meals={meals}/>
+    const cosmetics = await getRecipe();
+    return <CosmeticGrid cosmetics={cosmetics}/>
 }
 
 
 
-export default function MealsPage() {
+export default function CosmeticsPage() {
   return (
     <>
     <header className={cls.header}>
         <h1>
             Natural cosmetic, created <span className={cls.highlight}>by you</span>
         </h1>
-        <p>Choose your favorite recipe and cook it yourself. It is easy and fun!</p>
+        <p>Choose your favorite recipe and make it yourself. It is easy and fun!</p>
         <p className={cls.cta}>
-            <Link href="/meals/share">
+            <Link href="/cosmetics/share">
                 Share Your Favorite Recipe
             </Link>
         </p>

@@ -1,6 +1,6 @@
 import Image from "next/image"
 import cls from "./page.module.css"
-import { getRecipes } from "@/lib/meals"
+import { getRecipes } from "@/lib/cosmetics"
 import { notFound } from "next/navigation"
 
 export default function RecipeDetailsPage({params}) {

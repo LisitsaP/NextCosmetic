@@ -1,4 +1,4 @@
-.meal {
+.cosmetic {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -27,8 +27,8 @@
     font-style: italic;
   }
   
-  .meal h2,
-  .meal p {
+  .cosmetic h2,
+  .cosmetic p {
     margin: 0;
   }
   
@@ -37,7 +37,7 @@
     height: 15rem;
   }
   
-  .meal img {
+  .cosmetic img {
     object-fit: cover;
   }
   

@@ -1,11 +1,11 @@
 'use client'
-import ImagePicker from '@/components/meals/image-picker';
+import ImagePicker from '@/components/cosmetics/image-picker';
 import { useFormState } from 'react-dom'
 import classes from './page.module.css';
 import { shareRecipe } from '@/lib/actions';
-import RecipeFormSubmit from '@/components/meals/recipe-form-submit';
+import RecipeFormSubmit from '@/components/cosmetics/recipe-form-submit';
 
-export default function ShareMealPage() {
+export default function ShareCosmeticPage() {
    const [state, formAction]= useFormState( shareRecipe, {message: null});
   return (
     <>

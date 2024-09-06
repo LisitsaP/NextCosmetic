@@ -4,8 +4,8 @@ import MainHeaderBackground from '@/components/main-header/main-header-backgroun
 
 
 export const metadata = {
-  title: 'NextLevel Food',
-  description: 'Delicious meals, shared by a food-loving community.',
+  title: 'NextLevel Cosmetic',
+  description: 'Natural cosmetic, shared by community.',
 };
 
 export default function RootLayout({ children }) {

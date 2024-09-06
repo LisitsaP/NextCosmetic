@@ -1,7 +1,7 @@
 const sql = require('better-sqlite3');
 const db = sql('recipes.db');
 
-const dummyMeals = [
+const nextCosmetic = [
   {
     title: 'Soy wax candle',
     slug: 'soy-wax-candle',
@@ -151,8 +151,8 @@ async function initData() {
       )
    `);
 
-  for (const meal of dummyMeals) {
-    stmt.run(meal);
+  for (const cosmetic of nextCosmetic) {
+    stmt.run(cosmetic);
   }
 }
 
