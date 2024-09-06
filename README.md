@@ -2,6 +2,8 @@
 A Full-Stack Next.js application built for natural cosmetic enthusiasts to discover, \
 share, and exchange knowledge about natural cosmetics. 
 
+https://github.com/user-attachments/assets/ce03e616-4b65-499d-8360-df447dfd6853
+
 ## ✨ Key Features: 
 ### Dynamic Routing:  
 Leverages the Next.js App Router for optimized routing and server-side rendering. 
@@ -20,11 +22,6 @@ CSS Modules \
 useForm Hook \
 server actions \
 SQLite 
-
-
-https://github.com/user-attachments/assets/ce03e616-4b65-499d-8360-df447dfd6853
-
-
 
 ### 🚀 Getting Started: 
 
