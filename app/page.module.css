@@ -1,0 +1,82 @@
+.header {
+    display: flex;
+    
+    gap: 3rem;
+    margin: 3rem auto;
+    width: 90%;
+    max-width: 75rem;
+  }
+  
+  .slideshow {
+    width: 40rem;
+    height: 25rem;
+  }
+  
+  .hero {
+    color: #524C42;
+    font-size: 1.5rem;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #A3B763, #A3B763);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .cta {
+    font-size: 1.5rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .cta a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(90deg, #125C13, #3E7C17);;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .cta a:hover,
+  .cta a:active {
+    background: linear-gradient(90deg, #125C13, #3E7C17);
+  }
+  
+  .cta a:first-child {
+    background: transparent;
+    font-weight: normal;
+    color: #125C13;
+    padding-left: 0;
+  }
+  
+  .cta a:first-child:hover,
+  .cta a:first-child:active {
+    background: transparent;
+    color: #125C13;
+  }
+  
+  .section {
+    display: flex;
+    flex-direction: column;
+    color: #524C42;
+    font-size: 1.5rem;
+    max-width: 50rem;
+    width: 90%;
+    margin: 2rem auto;
+    text-align: center;
+  }
+
+  @media (max-width: 640px){
+    .header{
+        flex-wrap: wrap;
+    }
+  }
